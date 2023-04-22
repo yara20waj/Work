@@ -1,0 +1,36 @@
+.box{
+    position: absolute;
+    top: 22%;
+    left: 19%;
+    height:60%;
+    background-color:#fff;
+    width:77%;
+    text-align: left;
+    padding: 10px;
+    border:1px solid rgba(0, 0, 0, .1);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.page-title{
+    color: #3E9919;
+    text-transform: uppercase;
+    margin-top: 3%;
+    margin-left:19%;
+    font-weight: bold;
+}
+
+.apply{
+    border-bottom:none;
+    cursor: pointer;
+    color: white;
+    background: #07aa07;
+    border-radius: 3px;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 120px;
+    height: 40px;
+    margin-left: 40%;
+    margin-top: 20px;
+    box-shadow: 0 5px 10px #aaa8a8;
+    
+
+}

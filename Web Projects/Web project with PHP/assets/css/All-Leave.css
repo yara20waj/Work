@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #EEE;
+    -ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+.box{
+
+    position: absolute;
+    top: 23%;
+    left: 20%;
+    height:100%;
+    background-color:#fff;
+    width:73%;
+    text-align: left;
+    padding:30px;
+    border:1px solid rgba(0, 0, 0, .1);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.view-btn{
+    border-bottom:none;
+    cursor: pointer;
+    color: white;
+    background: #35b135fd;
+    border-radius: 2px;
+    text-transform: uppercase;
+    width: 150px;
+    height: 20px;
+    box-shadow: 0 5px 10px rgb(170, 168, 168);
+    float: left;
+    text-align: center;
+    
+    margin-right: 15px;
+    font-size: 13px;
+}
+.page-title{
+    color:#35b135fd;
+    margin-left: 20%;
+    margin-top: 4%;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+table{
+    height: 100%;
+    width: 100%;
+}
+td{
+    
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #eee; 
+    color: slategray;
+}
+th{
+    border-collapse: none;
+    
+   
+    border: none;
+    border-bottom: 1px solid #cec8c8; 
+     
+}
+.name-Emp{
+    color:blue;
+    font-size: 14px;
+}
+.errorWrap {
+    padding: 10px;
+    margin: 0 0 20px 0;
+    background: #fff;
+    border-left: 4px solid #dd3d36;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+.succWrap{
+    padding: 10px;
+    margin: 0 0 20px 0;
+    background: #fff;
+    border-left: 4px solid #5cb85c;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}

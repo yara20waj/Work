@@ -1,0 +1,73 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #EEE;
+    -ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+.bar-title{
+    width: 100%;
+    
+    text-align: center;
+    background-color: #00BFFF;
+    height: 40px;
+    padding-top: 20px;
+    font-size: 30px;
+    color:white;
+    box-shadow: 0 5px 5px rgb(170, 168, 168);
+    transform: translate(0%,0%);
+}
+.side-bar{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    background-color:lightblue;
+    float:left;
+    width:235px;
+    height: 950px;
+}
+
+.sidebar-profile{
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+#id-Emp{
+    font-size: 12px;
+    color:#686767e7;
+}
+
+.profile-img{
+height: 60px;
+padding-top: 30px;
+padding-left: 15px;
+}
+ul {
+    margin-top: 60px;
+    margin: 0;
+    padding: 10px;
+    width: 225px;
+    height: 50px;
+    color:#686767e7;
+    list-style-type: none;
+     font-weight: bold;
+
+}
+ul li:hover {
+    background: #eee;
+}
+
+li{
+    padding-bottom: 25px;
+    padding-left: 15px; 
+    
+}
+a {
+    cursor:pointer;
+    text-decoration: none;
+	color: #5a5858e7;
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+    font-size: 12px;
+    font-weight: bold;  
+}

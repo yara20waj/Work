@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #EEE;
+    
+}
+a{
+
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+}
+h4{
+    margin: 0 0 40px;
+    color:#da353ee0;
+    font-size:40px;
+    text-align: center;
+    margin-top: 7%;  
+    
+}
+
+.box-title{
+    color:#da353ee0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;      
+}
+input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+       -moz-appearance: checkbox;
+            appearance: checkbox;
+    display: inline-block;
+    width: auto;
+  }
+.box{
+    margin-top: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height:330px;
+    background-color:#fff;
+    width:550px;
+    text-align: left;
+    padding:30px;
+    border:1px solid rgba(0, 0, 0, .1);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.inputAdmin{
+    padding: 15px 0;
+    margin-bottom: 10px;
+    margin-top: 45px;  
+    width: 93%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none; 
+    font-size: 15px;
+    border-bottom: 1px solid rgb(202, 200, 200);
+    color:rgb(124, 124, 124);
+    margin-left: 4%;
+    
+}
+.login{
+    border-bottom:none;
+    cursor: pointer;
+    color: white;
+    background: rgb(11, 192, 11);
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 110px;
+    height: 40px;
+    margin-left: 40%;
+    margin-top: 30px;
+    box-shadow: 0 5px 10px #aaa8a8;
+
+}
+
+.box form div{
+    position: relative;
+}
+.box label{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    margin-left:4%;
+    padding-bottom: 0px;
+    color:#9e9898ee;
+    transition: .5s;
+    pointer-events: none;
+    margin-top: 45px;
+}
+.box input:focus ~ label,
+.box input:valid ~ label
+{
+    top:-12px;
+    left:0;
+    color:#da353ee0;
+    font-size:15px;
+    font-weight: bold;
+}
+
+.box input:focus,
+.box input:valid{
+    border-bottom: 1px solid #da353ee0;
+
+}
